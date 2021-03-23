@@ -4,11 +4,11 @@ import (
 	"os"
 
 	"github.com/packethost/pkg/log"
-	"github.com/tinkerbell/tink/cmd/tink-worker/cmd"
+	"github.com/raydeann/tink/cmd/tink-worker/cmd"
 )
 
 const (
-	serviceKey = "github.com/tinkerbell/tink"
+	serviceKey = "github.com/raydeann/tink"
 )
 
 var (

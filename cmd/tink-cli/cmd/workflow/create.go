@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/protos/workflow"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/protos/workflow"
 )
 
 var (

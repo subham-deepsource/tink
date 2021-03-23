@@ -10,7 +10,7 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/packethost/pkg/log"
 	"github.com/pkg/errors"
-	pb "github.com/tinkerbell/tink/protos/workflow"
+	pb "github.com/raydeann/tink/protos/workflow"
 )
 
 const (

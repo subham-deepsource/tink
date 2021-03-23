@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/protos/hardware"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/protos/hardware"
 )
 
 func readHwData(file string) ([]byte, error) {

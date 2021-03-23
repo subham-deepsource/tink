@@ -8,11 +8,11 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
+	"github.com/raydeann/tink/protos/events"
+	"github.com/raydeann/tink/protos/hardware"
+	"github.com/raydeann/tink/protos/template"
+	"github.com/raydeann/tink/protos/workflow"
 	"github.com/spf13/pflag"
-	"github.com/tinkerbell/tink/protos/events"
-	"github.com/tinkerbell/tink/protos/hardware"
-	"github.com/tinkerbell/tink/protos/template"
-	"github.com/tinkerbell/tink/protos/workflow"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/raydeann/tink/client/informers"
+	"github.com/raydeann/tink/protos/events"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/client/informers"
-	"github.com/tinkerbell/tink/protos/events"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

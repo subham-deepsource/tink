@@ -1,6 +1,6 @@
 package informers
 
-import "github.com/tinkerbell/tink/protos/events"
+import "github.com/raydeann/tink/protos/events"
 
 type watchRequestModifier func(*events.WatchRequest)
 

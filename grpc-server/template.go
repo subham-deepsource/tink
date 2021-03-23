@@ -8,9 +8,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tinkerbell/tink/db"
-	"github.com/tinkerbell/tink/metrics"
-	"github.com/tinkerbell/tink/protos/template"
+	"github.com/raydeann/tink/db"
+	"github.com/raydeann/tink/metrics"
+	"github.com/raydeann/tink/protos/template"
 )
 
 // CreateTemplate implements template.CreateTemplate

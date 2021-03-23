@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/get"
-	"github.com/tinkerbell/tink/protos/template"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/get"
+	"github.com/raydeann/tink/protos/template"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

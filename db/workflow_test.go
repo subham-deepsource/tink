@@ -8,12 +8,12 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
+	"github.com/raydeann/tink/db"
+	"github.com/raydeann/tink/protos/hardware"
+	pb "github.com/raydeann/tink/protos/workflow"
 	"github.com/stretchr/testify/assert"
-	"github.com/tinkerbell/tink/db"
-	"github.com/tinkerbell/tink/protos/hardware"
-	pb "github.com/tinkerbell/tink/protos/workflow"
 
-	"github.com/tinkerbell/tink/workflow"
+	"github.com/raydeann/tink/workflow"
 )
 
 type input struct {

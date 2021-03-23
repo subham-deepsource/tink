@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/protos/events"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/protos/events"
 )
 
 // Informer is the base informer

@@ -1,4 +1,4 @@
-module github.com/tinkerbell/tink
+module github.com/raydeann/tink
 
 go 1.13
 

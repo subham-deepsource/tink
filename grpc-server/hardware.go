@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tinkerbell/tink/db"
-	"github.com/tinkerbell/tink/metrics"
-	"github.com/tinkerbell/tink/protos/hardware"
+	"github.com/raydeann/tink/db"
+	"github.com/raydeann/tink/metrics"
+	"github.com/raydeann/tink/protos/hardware"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

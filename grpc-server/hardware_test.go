@@ -3,8 +3,8 @@ package grpcserver
 import (
 	"testing"
 
+	"github.com/raydeann/tink/protos/hardware"
 	"github.com/stretchr/testify/assert"
-	"github.com/tinkerbell/tink/protos/hardware"
 )
 
 func Test_server_normalizeHardwareData(t *testing.T) {

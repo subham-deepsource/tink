@@ -11,10 +11,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/pkg"
+	"github.com/raydeann/tink/protos/hardware"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/pkg"
-	"github.com/tinkerbell/tink/protos/hardware"
 )
 
 var (

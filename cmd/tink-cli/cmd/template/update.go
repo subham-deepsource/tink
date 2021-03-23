@@ -8,10 +8,10 @@ import (
 	"os"
 
 	"github.com/google/uuid"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/protos/template"
+	"github.com/raydeann/tink/workflow"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/protos/template"
-	"github.com/tinkerbell/tink/workflow"
 )
 
 // updateCmd represents the get subcommand for template command

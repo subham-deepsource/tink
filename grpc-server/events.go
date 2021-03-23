@@ -3,9 +3,9 @@ package grpcserver
 import (
 	"io"
 
-	"github.com/tinkerbell/tink/client/informers"
-	"github.com/tinkerbell/tink/client/listener"
-	"github.com/tinkerbell/tink/protos/events"
+	"github.com/raydeann/tink/client/informers"
+	"github.com/raydeann/tink/client/listener"
+	"github.com/raydeann/tink/protos/events"
 )
 
 func (s *server) Watch(req *events.WatchRequest, stream events.EventsService_WatchServer) error {

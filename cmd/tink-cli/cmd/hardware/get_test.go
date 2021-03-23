@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/get"
-	hardware_proto "github.com/tinkerbell/tink/protos/hardware"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/get"
+	hardware_proto "github.com/raydeann/tink/protos/hardware"
 	"google.golang.org/grpc"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd"
+	"github.com/raydeann/tink/cmd/tink-cli/cmd"
 )
 
 // version is set at build time

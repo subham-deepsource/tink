@@ -5,9 +5,9 @@ package e2e
 //	"time"
 //	"testing"
 //
-//	"github.com/tinkerbell/tink/client"
-//	"github.com/tinkerbell/tink/protos/workflow"
-//	"github.com/tinkerbell/tink/test/framework"
+//	"github.com/raydeann/tink/client"
+//	"github.com/raydeann/tink/protos/workflow"
+//	"github.com/raydeann/tink/test/framework"
 //	"github.com/sirupsen/logrus"
 //)
 //

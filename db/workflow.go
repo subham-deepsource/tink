@@ -15,8 +15,8 @@ import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
-	pb "github.com/tinkerbell/tink/protos/workflow"
-	wflow "github.com/tinkerbell/tink/workflow"
+	pb "github.com/raydeann/tink/protos/workflow"
+	wflow "github.com/raydeann/tink/workflow"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

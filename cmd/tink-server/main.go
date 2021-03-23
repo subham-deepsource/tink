@@ -11,13 +11,13 @@ import (
 	"syscall"
 
 	"github.com/packethost/pkg/log"
+	"github.com/raydeann/tink/client/listener"
+	"github.com/raydeann/tink/db"
+	rpcServer "github.com/raydeann/tink/grpc-server"
+	httpServer "github.com/raydeann/tink/http-server"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"github.com/tinkerbell/tink/client/listener"
-	"github.com/tinkerbell/tink/db"
-	rpcServer "github.com/tinkerbell/tink/grpc-server"
-	httpServer "github.com/tinkerbell/tink/http-server"
 )
 
 var (
@@ -97,7 +97,7 @@ func (c *DaemonConfig) PopulateFromLegacyEnvVar() {
 }
 
 func main() {
-	logger, err := log.Init("github.com/tinkerbell/tink")
+	logger, err := log.Init("github.com/raydeann/tink")
 	if err != nil {
 		panic(err)
 	}

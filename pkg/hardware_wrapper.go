@@ -3,7 +3,7 @@ package pkg
 import (
 	"encoding/json"
 
-	"github.com/tinkerbell/tink/protos/hardware"
+	"github.com/raydeann/tink/protos/hardware"
 )
 
 // HardwareWrapper is a wrapper for the Hardware type generated from the protos

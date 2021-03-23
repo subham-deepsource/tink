@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/raydeann/tink/protos/events"
 	"github.com/stretchr/testify/assert"
-	"github.com/tinkerbell/tink/protos/events"
 )
 
 func TestFilter(t *testing.T) {

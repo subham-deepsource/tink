@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/raydeann/tink/client/informers"
+	"github.com/raydeann/tink/protos/events"
+	"github.com/raydeann/tink/protos/hardware"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/client/informers"
-	"github.com/tinkerbell/tink/protos/events"
-	"github.com/tinkerbell/tink/protos/hardware"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

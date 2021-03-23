@@ -11,10 +11,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
-	"github.com/tinkerbell/tink/client/informers"
-	"github.com/tinkerbell/tink/db"
-	"github.com/tinkerbell/tink/protos/events"
-	"github.com/tinkerbell/tink/protos/hardware"
+	"github.com/raydeann/tink/client/informers"
+	"github.com/raydeann/tink/db"
+	"github.com/raydeann/tink/protos/events"
+	"github.com/raydeann/tink/protos/hardware"
 )
 
 func TestCreateEventsForHardware(t *testing.T) {

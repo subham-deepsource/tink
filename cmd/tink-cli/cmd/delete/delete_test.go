@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/tinkerbell/tink/client"
+	"github.com/raydeann/tink/client"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

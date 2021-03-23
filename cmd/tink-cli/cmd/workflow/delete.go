@@ -3,9 +3,9 @@ package workflow
 import (
 	"context"
 
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/delete"
-	"github.com/tinkerbell/tink/protos/workflow"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/delete"
+	"github.com/raydeann/tink/protos/workflow"
 )
 
 type deleteWorkflow struct {

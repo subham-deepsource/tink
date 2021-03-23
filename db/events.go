@@ -4,8 +4,8 @@ import (
 	"database/sql"
 
 	"github.com/pkg/errors"
-	"github.com/tinkerbell/tink/client/informers"
-	"github.com/tinkerbell/tink/protos/events"
+	"github.com/raydeann/tink/client/informers"
+	"github.com/raydeann/tink/protos/events"
 )
 
 // Events fetches events for a given time frame, and

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/raydeann/tink/db/mock"
+	pb "github.com/raydeann/tink/protos/template"
 	"github.com/stretchr/testify/assert"
-	"github.com/tinkerbell/tink/db/mock"
-	pb "github.com/tinkerbell/tink/protos/template"
 )
 
 const (

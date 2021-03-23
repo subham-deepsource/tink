@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/delete"
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/get"
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/workflow"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/delete"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/get"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/workflow"
 )
 
 func NewWorkflowCommand() *cobra.Command {

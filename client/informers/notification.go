@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/tinkerbell/tink/protos/events"
+	"github.com/raydeann/tink/protos/events"
 )
 
 // Notification represents an event notification

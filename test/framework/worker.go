@@ -10,8 +10,8 @@ import (
 	"github.com/docker/docker/api/types/container"
 	dc "github.com/docker/docker/client"
 	"github.com/pkg/errors"
+	"github.com/raydeann/tink/protos/workflow"
 	"github.com/sirupsen/logrus"
-	"github.com/tinkerbell/tink/protos/workflow"
 )
 
 var workerID = []string{"f9f56dff-098a-4c5f-a51c-19ad35de85d1", "f9f56dff-098a-4c5f-a51c-19ad35de85d2"}

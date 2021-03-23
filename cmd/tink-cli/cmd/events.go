@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/events"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/events"
 )
 
 var eventcmd = &cobra.Command{

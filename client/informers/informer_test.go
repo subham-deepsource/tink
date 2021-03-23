@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/raydeann/tink/protos/events"
 	"github.com/stretchr/testify/assert"
-	"github.com/tinkerbell/tink/protos/events"
 )
 
 func TestProcessEvents(t *testing.T) {

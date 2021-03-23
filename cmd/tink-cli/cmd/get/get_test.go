@@ -9,8 +9,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/jedib0t/go-pretty/table"
+	"github.com/raydeann/tink/client"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/client"
 )
 
 func TestNewGetCommand(t *testing.T) {

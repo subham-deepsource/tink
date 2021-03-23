@@ -14,7 +14,7 @@ import (
 
 	grpcRuntime "github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/packethost/pkg/log"
-	"github.com/tinkerbell/tink/protos/hardware"
+	"github.com/raydeann/tink/protos/hardware"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 )
@@ -49,7 +49,7 @@ func (s *server) Push(ctx context.Context, in *hardware.PushRequest) (*hardware.
 }
 
 func TestMain(m *testing.M) {
-	logger, _ = log.Init("github.com/tinkerbell/tink")
+	logger, _ = log.Init("github.com/raydeann/tink")
 	lis = bufconn.Listen(bufSize)
 	s := grpc.NewServer()
 	hardware.RegisterHardwareServiceServer(s, &server{})

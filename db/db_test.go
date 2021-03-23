@@ -9,9 +9,9 @@ import (
 
 	"github.com/packethost/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/raydeann/tink/db"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
-	"github.com/tinkerbell/tink/db"
 )
 
 type NewPostgresDatabaseRequest struct {

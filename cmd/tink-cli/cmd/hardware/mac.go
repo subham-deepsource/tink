@@ -8,9 +8,9 @@ import (
 	"log"
 	"net"
 
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/protos/hardware"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/protos/hardware"
 )
 
 func NewGetByMACCmd() *cobra.Command {

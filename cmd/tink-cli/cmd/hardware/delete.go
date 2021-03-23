@@ -5,9 +5,9 @@ package hardware
 import (
 	"context"
 
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/delete"
-	"github.com/tinkerbell/tink/protos/hardware"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/delete"
+	"github.com/raydeann/tink/protos/hardware"
 )
 
 type deleteHardware struct {

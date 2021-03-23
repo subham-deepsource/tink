@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/jedib0t/go-pretty/table"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/cmd/tink-cli/cmd/get"
+	"github.com/raydeann/tink/protos/workflow"
 	"github.com/spf13/cobra"
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/cmd/tink-cli/cmd/get"
-	"github.com/tinkerbell/tink/protos/workflow"
 )
 
 var (

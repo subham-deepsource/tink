@@ -3,8 +3,8 @@ package framework
 import (
 	"context"
 
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/protos/workflow"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/protos/workflow"
 )
 
 // CreateWorkflow : create workflow

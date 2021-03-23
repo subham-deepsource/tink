@@ -12,9 +12,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
 	_ "github.com/lib/pq"
-	"github.com/tinkerbell/tink/db"
-	"github.com/tinkerbell/tink/pkg"
-	"github.com/tinkerbell/tink/protos/hardware"
+	"github.com/raydeann/tink/db"
+	"github.com/raydeann/tink/pkg"
+	"github.com/raydeann/tink/protos/hardware"
 )
 
 func TestCreateHardware(t *testing.T) {

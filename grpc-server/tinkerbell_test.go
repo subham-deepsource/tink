@@ -9,11 +9,11 @@ import (
 
 	"github.com/packethost/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/raydeann/tink/db"
+	"github.com/raydeann/tink/db/mock"
+	"github.com/raydeann/tink/metrics"
+	pb "github.com/raydeann/tink/protos/workflow"
 	"github.com/stretchr/testify/assert"
-	"github.com/tinkerbell/tink/db"
-	"github.com/tinkerbell/tink/db/mock"
-	"github.com/tinkerbell/tink/metrics"
-	pb "github.com/tinkerbell/tink/protos/workflow"
 )
 
 const (
@@ -29,7 +29,7 @@ const (
 var wfData = []byte("{'os': 'ubuntu', 'base_url': 'http://192.168.1.1/'}")
 
 func testServer(t *testing.T, db db.Database) *server {
-	l, _ := log.Init("github.com/tinkerbell/tink")
+	l, _ := log.Init("github.com/raydeann/tink")
 	return &server{
 		logger: l,
 		db:     db,
@@ -37,7 +37,7 @@ func testServer(t *testing.T, db db.Database) *server {
 }
 
 func TestMain(m *testing.M) {
-	l, _ := log.Init("github.com/tinkerbell/tink")
+	l, _ := log.Init("github.com/raydeann/tink")
 	metrics.SetupMetrics("onprem", l.Package("grpcserver"))
 	os.Exit(m.Run())
 }

@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/pkg"
-	"github.com/tinkerbell/tink/protos/hardware"
-	"github.com/tinkerbell/tink/protos/template"
-	"github.com/tinkerbell/tink/protos/workflow"
-	vagrant "github.com/tinkerbell/tink/test/_vagrant"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/pkg"
+	"github.com/raydeann/tink/protos/hardware"
+	"github.com/raydeann/tink/protos/template"
+	"github.com/raydeann/tink/protos/workflow"
+	vagrant "github.com/raydeann/tink/test/_vagrant"
 )
 
 func TestVagrantSetupGuide(t *testing.T) {

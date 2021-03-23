@@ -12,8 +12,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
 	_ "github.com/lib/pq"
-	"github.com/tinkerbell/tink/db"
-	"github.com/tinkerbell/tink/workflow"
+	"github.com/raydeann/tink/db"
+	"github.com/raydeann/tink/workflow"
 	"gopkg.in/yaml.v2"
 )
 

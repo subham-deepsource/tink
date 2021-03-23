@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/tinkerbell/tink/db"
-	pb "github.com/tinkerbell/tink/protos/workflow"
+	"github.com/raydeann/tink/db"
+	pb "github.com/raydeann/tink/protos/workflow"
 )
 
 // CreateWorkflow creates a new workflow

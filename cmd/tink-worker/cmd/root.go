@@ -8,12 +8,12 @@ import (
 
 	"github.com/packethost/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/raydeann/tink/client"
+	"github.com/raydeann/tink/cmd/tink-worker/internal"
+	pb "github.com/raydeann/tink/protos/workflow"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"github.com/tinkerbell/tink/client"
-	"github.com/tinkerbell/tink/cmd/tink-worker/internal"
-	pb "github.com/tinkerbell/tink/protos/workflow"
 	"google.golang.org/grpc"
 )
 
